@@ -1,0 +1,84 @@
+.all-divs {
+  display: flex;
+}
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.first-div {
+  margin: auto;
+}
+
+.input {
+  flex-direction: column;
+  display: flex;
+  border: none;
+  margin-top: 10px;
+}
+
+input {
+  outline: none;
+}
+.second-div {
+  margin: auto;
+  font-size: 25px;
+  margin-top: 100px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 2px;
+  height: 350px;
+  width: 400px;
+  /* font-weight: 700; */
+}
+
+.form {
+  margin-top: 10px;
+  font-size: 25px;
+  width: 350px;
+  border-radius: 9px;
+  outline: none;
+  border: 3px solid whitesmoke;
+  padding: 10px;
+  /* justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+}
+.passnew {
+  margin-left: 35px;
+  
+}
+
+.password {
+  font-size: large;
+  margin-left: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.new-account {
+  /* width: 400px;
+    font-size: 30px;
+    outline: none;
+    margin-left: 70px;
+    height: 20px;
+    border-radius: 9px;
+     */
+  margin-top: 10px;
+  font-size: 25px;
+  width: 200px;
+  border-radius: 10px;
+  outline: none;
+  /* border: 0.5px solid grey; */
+  padding: 10px;
+  justify-content: center;
+  margin: auto;
+  margin-left: 70px;
+  cursor: pointer;
+}
+.toon {
+  display: flex;
+  flex-direction: row;
+}
